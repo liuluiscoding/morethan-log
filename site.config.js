@@ -4,7 +4,7 @@ const CONFIG = {
     name: "Lu Liu",
     image: "/avatar.svg", // If you want to create your own notion avatar, check out https://notion-avatar.vercel.app
     role: "software engineer",
-    bio: "I develop everything using node.",
+    bio: "Note my learning and thinking process.",
     email: "liulucoding@outlook.com",
     linkedin: "morethanmin",
     github: "morethanmin",
@@ -23,8 +23,8 @@ const CONFIG = {
   },
 
   // CONFIG configration (required)
-  link: "https://morethan-log-two-beta.vercel.app",
-  since: 2022, // If leave this empty, current year will be used.
+  link: "https://lunotebook.vercel.app",
+  since: 2024, // If leave this empty, current year will be used.
   lang: "en-US", // ['en-US', 'zh-CN', 'zh-HK', 'zh-TW', 'ja-JP', 'es-ES', 'ko-KR']
   ogImageGenerateURL: "https://og-image-korean.vercel.app", // The link to generate OG image, don't end with a slash
 
@@ -53,7 +53,7 @@ const CONFIG = {
     },
   },
   utterances: {
-    enable: false,
+    enable: true,
     config: {
       repo: process.env.NEXT_PUBLIC_UTTERANCES_REPO || "",
       "issue-term": "og:title",
